@@ -67,11 +67,17 @@ return 0;
 
 Светодиод Led1.
 
-image::1.jpg[300, 300]
+    image::1.jpg[300, 300]
+    
+    
 
 Светодиод Led3.
 
-image::3.jpg[300, 300]
+    image::3.jpg[300, 300]
+    
+    
 
 image::2.jpg[300, 300]
+
+
 
