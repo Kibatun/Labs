@@ -29,7 +29,7 @@ image::image-2021-09-29-23-18-28-635.png[]
 Выберем внешний генератор HSE с частотой 8 Мгц. После чего необходимо настроить Pll на нужную частоту. Существует 3 способа настройки частоты
 
 * f(VCO clock) = f(PLL clock input) × (PLLN / PLLM)
-* f(PLL general clock output) = f(VCO clock) / PLLP
+* f(PLL general clock output) = f(VCO clock) / 2
 * f(USB OTG FS, SDIO) = f(VCO clock) / PLLQ
 
 В нашем случае подходит первый способ. При этом PLLN принимает значения: 50 ≤ PLLN ≤ 432, а PLLM: 2 ≤ PLLM ≤ 63. Для получения из частоты 8 МГц 30 МГц необходимо умножить на 60 и разделить на 16.
